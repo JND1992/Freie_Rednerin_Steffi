@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kontakt — Steffi Hamann, freie Rednerin in der Nordheide und Hamburg</title>
+  <meta name="description" content="Anfrage für eine freie Trauung, Trauerfeier oder ein Willkommensfest in der Nordheide, in Hamburg, Niedersachsen und Schleswig-Holstein. Antwort in der Regel innerhalb von 24 Stunden.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="sprunglink" href="#hauptinhalt">Zum Inhalt springen</a>
+
+<div class="rahmen">
+
+  <aside class="rail" aria-hidden="true">
+    <div class="rail-innen">
+      <a class="monogramm" href="index.html" tabindex="-1">SH</a>
+      <div class="rail-text">Freie Rednerin — Nordheide · Hamburg · Norddeutschland</div>
+      <div class="rail-punkt"></div>
+    </div>
+  </aside>
+
+  <div class="inhalt">
+
+    <header class="kopfzeile">
+      <a class="marke" href="index.html">
+        <span class="marke-monogramm">SH</span>
+        <span class="marke-name">Steffi Hamann<small>Freie Rednerin</small></span>
+      </a>
+      <nav class="navigation" id="hauptnav" aria-label="Hauptnavigation">
+        <a href="index.html">Startseite</a>
+        <a href="trauungen.html">Trauungen</a>
+        <a href="trauerfeiern.html">Trauerfeiern</a>
+        <a href="willkommensfeste.html">Willkommensfeste</a>
+        <a href="ueber-mich.html">Über mich</a>
+        <a href="blog.html">Blog</a>
+        <a class="nur-mobil" href="kontakt.html">Anfrage stellen</a>
+      </nav>
+      <button class="menue-knopf" type="button" aria-expanded="false" aria-controls="hauptnav">
+        <span class="menue-wort">Menü</span><span class="menue-striche" aria-hidden="true"></span>
+      </button>
+      <a class="pill kopf-pill" href="kontakt.html">Anfrage stellen</a>
+    </header>
+
+    <main id="hauptinhalt">
+
+      <section class="seitenkopf-schlicht">
+        <a class="zurueck" href="index.html">Zur Startseite</a>
+        <p class="eyebrow">Kontakt</p>
+        <h1>Erzählt mir von <em>eurem Anlass</em>.</h1>
+        <p class="hero-lead">Schreibt mir ein paar Zeilen — auch wenn das Datum noch offen ist oder ihr einfach wissen möchtet, ob ich frei bin. Ich melde mich in der Regel innerhalb von 24 Stunden.</p>
+      </section>
+
+      <section class="kontakt">
+        <div>
+          <ul class="kontaktdaten">
+            <li>
+              <span class="label">Telefon</span>
+              <a href="tel:+494181000000"><mark class="fuellen">04181 000 000</mark></a>
+            </li>
+            <li>
+              <span class="label">E-Mail</span>
+              <a href="mailto:hallo@steffi-hamann.de"><mark class="fuellen">hallo@steffi-hamann.de</mark></a>
+            </li>
+            <li>
+              <span class="label">Unterwegs in</span>
+              <span class="wert">Nordheide, Hamburg, Niedersachsen &amp; Schleswig-Holstein</span>
+            </li>
+          </ul>
+          <p class="hinweisbox hinweisbox--blau"><strong>Trauerfall?</strong> Rufen Sie mich gern direkt an — auch abends und am Wochenende. Ich melde mich schnellstmöglich zurück.</p>
+        </div>
+
+        <!-- Die E-Mail-Adresse in data-empfaenger ist die Adresse, an die Anfragen gehen. -->
+        <form class="formular" id="anfrage" data-empfaenger="hallo@steffi-hamann.de">
+          <div class="feld-reihe">
+            <div class="feld">
+              <label for="f-name">Name <span class="pflicht" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="feld">
+              <label for="f-mail">E-Mail <span class="pflicht" aria-hidden="true">*</span></label>
+              <input id="f-mail" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="feld-reihe">
+            <div class="feld">
+              <label for="f-tel">Telefon</label>
+              <input id="f-tel" name="telefon" type="tel" autocomplete="tel">
+            </div>
+            <div class="feld">
+              <label for="f-anlass">Anlass <span class="pflicht" aria-hidden="true">*</span></label>
+              <select id="f-anlass" name="anlass" required>
+                <option value="Trauung">Freie Trauung</option>
+                <option value="Trauerfeier">Trauerfeier</option>
+                <option value="Willkommensfest">Willkommensfest</option>
+                <option value="Sonstiges">Etwas anderes</option>
+              </select>
+            </div>
+          </div>
+          <div class="feld-reihe">
+            <div class="feld">
+              <label for="f-datum">Datum (falls bekannt)</label>
+              <input id="f-datum" name="datum" type="date">
+            </div>
+            <div class="feld">
+              <label for="f-ort">Ort (falls bekannt)</label>
+              <input id="f-ort" name="ort" type="text">
+            </div>
+          </div>
+          <div class="feld">
+            <label for="f-nachricht">Eure Nachricht <span class="pflicht" aria-hidden="true">*</span></label>
+            <textarea id="f-nachricht" name="nachricht" required></textarea>
+          </div>
+          <p class="formular-info">Mit dem Klick auf „Anfrage senden“ öffnet sich euer E-Mail-Programm mit der fertigen Nachricht. Eure Daten werden nur zur Beantwortung der Anfrage verwendet — Details in der <a href="datenschutz.html">Datenschutzerklärung</a>.</p>
+          <button class="pill pill--gross" type="submit">Anfrage senden</button>
+          <p class="formular-hinweis" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="fusszeile">
+      <span>© 2026 Steffi Hamann — freie Rednerin · Nordheide, Hamburg &amp; Norddeutschland</span>
+      <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+    </footer>
+
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

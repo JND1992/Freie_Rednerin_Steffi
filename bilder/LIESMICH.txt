@@ -1,0 +1,52 @@
+FOTOS EINFÜGEN — so geht's
+===========================
+
+Jedes Foto hat auf der Website einen festen Platz mit einem festen Dateinamen.
+Du musst nichts am Code ändern: Datei mit dem richtigen Namen in diesen Ordner
+legen — fertig. Solange ein Foto fehlt, bleibt dort die gestreifte Fläche mit
+dem Hinweis, welches Motiv gemeint ist.
+
+Wichtig:
+  - Dateiname exakt so wie unten, alles klein geschrieben
+  - Endung .jpg, .png ODER .webp — alle drei funktionieren, die Website findet
+    die Datei automatisch. Empfehlung: JPG für Fotos (viel kleiner,
+    lädt schneller), PNG nur für Logos oder Grafiken.
+  - HEIC-Fotos vom iPhone vorher in JPG umwandeln (z. B. mit squoosh.app)
+  - Fotos vorher verkleinern: längste Seite höchstens 2000 Pixel,
+    Dateigröße unter 300 KB (z. B. mit squoosh.app im Browser — kostenlos;
+    dort „MozJPEG“ wählen, Qualität ca. 80). Als Orientierung: die Fotos,
+    die jetzt hier liegen, haben alle 120–300 KB.
+  - Keine Umlaute, keine Leerzeichen im Dateinamen
+  - Liegt eine Datei in beiden Formaten da, gilt die Reihenfolge .jpg, dann .png, dann .webp
+
+
+STARTSEITE   (Dateiname + .jpg, .png oder .webp)
+----------
+startseite-hero              Hochformat (ca. 4:5)   Strand mit Strandkorb, Elbe, Meer — das Hauptfoto
+karte-trauungen              Querformat (ca. 3:2)   Sonnenblumen oder Paar am Strand
+karte-trauerfeiern           Querformat (ca. 3:2)   Ruhige See oder einzelne Sonnenblume
+karte-willkommensfeste       Querformat (ca. 3:2)   Familie in den Dünen
+ablauf                       Querformat (ca. 3:2)   Dünen, Strandhafer, Sonnenblumenstrauß
+
+UNTERSEITEN (großes Bild rechts oben) — OPTIONAL
+-------------------------------------------------
+Fehlt eines dieser Fotos, zeigt die Unterseite automatisch das Karten-Foto
+von der Startseite (karte-trauungen usw.). Nur ablegen, wenn du dort ein
+anderes Foto möchtest — Hochformat wirkt hier am besten.
+trauungen-hero               Hochformat             Paar bei einer Trauung, gern am Wasser
+trauerfeiern-hero            Hochformat             Ruhige See am Morgen, Weite, Licht
+willkommensfeste-hero        Hochformat             Familie mit Kind, draußen
+
+ÜBER MICH
+---------
+portrait                     Hochformat             Dein Portrait — das wichtigste Foto der Website
+portrait-2                   Querformat             Du bei einer Zeremonie
+
+BLOG
+----
+blog-strandhochzeit          Querformat             Strandhochzeit
+blog-worte-finden            Querformat             Kerze am Meer
+blog-willkommensfest         Querformat             Sonnenblumenfeld
+
+Für jeden neuen Blogbeitrag: ein neues Foto mit eigenem Namen hier ablegen
+und den Namen in der neuen Beitragsdatei eintragen (siehe README.md).
